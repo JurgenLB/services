@@ -76,8 +76,8 @@ def decode(versie_read,res):
     return nummer_versie
 #
 def service_check(service):
-    service_ = open_utf_8("sudo service %s status" % service)
-    #
+    service_ = open_utf_8("service %s status" % service)
+    #    service_ = open_utf_8("sudo service %s status" % service)
     obj_service = str(service_) + ' ' + '  - '                                        # extention for preventing index error  # toevoeging ter voorkoming index error
     data_service = obj_service.split(' - ')
     data_service_ = data_service[0]
