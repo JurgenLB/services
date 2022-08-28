@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # sudo pip install colorama
+# sudo pip3 install requests
 #
 import subprocess
 import traceback
